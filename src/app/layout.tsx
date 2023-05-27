@@ -13,24 +13,35 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen flex flex-col items-stretch">
+      <body className="h-screen flex flex-col items-stretch text-sm sm:text-base">
         <header>
-          <div className="max-w-7xl mx-auto sm:px-5 px-2 flex flex-row justify-between">
+          <div className="max-w-7xl mx-auto sm:px-5 px-2 flex flex-row justify-between p-3">
+            <h1>
+              <Link
+                href="/"
+                className="align-middle text-xl font-bold text-cyan-700"
+              >
+                Victoria Mertens
+              </Link>
+            </h1>
             <div>
-              <Link href="/">Victoria Mertens</Link>
-            </div>
-            <div>
-              <Link href="/projects">Projects</Link>
+              <Link className="align-middle" href="/projects">
+                Projects
+              </Link>
               <p className="inline px-1">|</p>
-              <Link href="/about">About</Link>
+              <Link className="align-middle" href="/about">
+                About
+              </Link>
             </div>
           </div>
         </header>
         <main className="grow">
           <div className="max-w-6xl mx-auto sm:px-5 px-3 ">{children}</div>
         </main>
-        <footer>
-          <p>Footer</p>
+        <footer className="flex justify-center">
+          <p className="uppercase">
+            &#169; {new Date().getFullYear()} - Victoria Mertens
+          </p>
         </footer>
       </body>
     </html>
