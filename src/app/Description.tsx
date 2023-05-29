@@ -20,5 +20,9 @@ export default function Description() {
     }
   }
 
-  return <p>{options[count]} </p>;
+  return (
+    <span className="text-lg md:text-xl px-1 font-bold uppercase">
+      {options[count]}
+    </span>
+  );
 }

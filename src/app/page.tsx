@@ -20,16 +20,15 @@ export default function Home() {
           <p className="flex justify-items-center sm:text-2xl text-lg p-5 font-bold">
             Software Engineer
           </p>
-          <p className="flex flex-1 justify-items-center md:text-xl text-base">
-            Designing and building applications that are
+          <p className=" md:text-xl text-base text-center w-[390px]">
+            Building applications that are <Description />
           </p>
-          <Description />
         </div>
       </div>
 
       <div
         id="right-side"
-        className="flex flex-col items-center max-h-70 -mt-10"
+        className="flex flex-col items-center max-h-70 -mr-10"
       >
         <Image
           src={me}
