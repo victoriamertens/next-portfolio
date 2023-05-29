@@ -2,9 +2,21 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main>
-      <h1>Victoria Mertens</h1>
-    </main>
+    <div className="flex align-middle h-96 m-20 justify-center">
+      <div className="flex flex-col items-center gap-4 justify-center">
+        <h2 className="text-7xl">Victoria</h2>
+        <h2 className="text-7xl"> Mertens</h2>
+        <div className="flex flex-col items-center ">
+          <p className="text-2xl p-5">Software Engineer</p>
+          <p className="text-xl">
+            Designing and building applications that are
+          </p>
+        </div>
+      </div>
+      <div className="w-72 h-72">
+        <p>FILLER</p>
+      </div>
+    </div>
   );
 
   // return (
