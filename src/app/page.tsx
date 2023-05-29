@@ -2,18 +2,29 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="flex align-middle h-96 m-20 justify-center">
-      <div className="flex flex-col items-center gap-4 justify-center">
-        <h2 className="text-7xl">Victoria</h2>
-        <h2 className="text-7xl"> Mertens</h2>
-        <div className="flex flex-col items-center ">
-          <p className="text-2xl p-5">Software Engineer</p>
-          <p className="text-xl">
+    <div className="flex flex-col-reverse sm:flex-row align-middle h-96 my-20 justify-center">
+      <div
+        id="left-side"
+        className="flex flex-col items-center gap-4 justify-center"
+      >
+        <h2 className=" sm:text-7xl text-4xl font-bold tracking-wider">
+          Victoria
+        </h2>
+        <h2 className="sm:text-7xl text-4xl font-bold tracking-wider">
+          {' '}
+          Mertens
+        </h2>
+        <div className="flex flex-col items-center">
+          <p className="flex justify-items-center sm:text-2xl text-lg p-5 font-bold">
+            Software Engineer
+          </p>
+          <p className="flex flex-1 justify-items-center md:text-xl text-base">
             Designing and building applications that are
           </p>
         </div>
       </div>
-      <div className="w-72 h-72">
+
+      <div id="right-side" className="w-72 h-72">
         <p>FILLER</p>
       </div>
     </div>
