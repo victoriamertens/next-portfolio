@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Description from './Description';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <p className="flex flex-1 justify-items-center md:text-xl text-base">
             Designing and building applications that are
           </p>
+          <Description />
         </div>
       </div>
 
