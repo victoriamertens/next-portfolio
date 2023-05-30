@@ -47,9 +47,11 @@ export default function Home() {
           alt="happy-closet-icon"
           des="A virtual closet application using AWS S3 for image upload."
         />
-
-        {/* <Project /> */}
-        {/* <Project /> */}
+        <Project
+          img="/../public/MWP-icon.png"
+          alt="happy-closet-icon"
+          des="Client Project for Minnesota Women's Press, a non-profit in Minneapolis."
+        />
       </div>
     </div>
   );
