@@ -37,13 +37,19 @@ export default function Home() {
             // width={300}
             alt="Cartoon of Victoria holding MacBook and coffee"
             className="sm:w-72 w-52"
+            priority={true}
           />
         </div>
       </div>
       <div className="flex justify-around">
-        <Project />
-        <Project />
-        <Project />
+        <Project
+          img="/../public/happy_closet_icon.jpg"
+          alt="happy-closet-icon"
+          des="A virtual closet application using AWS S3 for image upload."
+        />
+
+        {/* <Project /> */}
+        {/* <Project /> */}
       </div>
     </div>
   );
