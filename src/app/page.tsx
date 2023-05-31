@@ -47,16 +47,22 @@ export default function Home() {
           img="/../public/happy_closet_icon.jpg"
           alt="happy-closet-icon"
           des="A virtual closet application using AWS S3 for image upload."
+          url="http://www.happycloset.app"
+          name="Happy Closet"
         />
         <Project
           img="/../public/MWP-icon.png"
           alt="happy-closet-icon"
           des="Client Project for Minnesota Women's Press, a non-profit in Minneapolis."
+          url="https://github.com/pdebuque/MN-Womens-Press-CM"
+          name="MWP Content Manager"
         />
         <Project
           img="/../public/weather-app-copy.png"
           alt="happy-closet-icon"
           des="Serverless weather application using AWS Lambda and weather API."
+          url="https://github.com/victoriamertens/100days/tree/main/packages/weather-app"
+          name="Weather App API"
         />
       </div>
     </div>
