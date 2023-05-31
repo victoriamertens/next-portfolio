@@ -41,7 +41,8 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex justify-around">
+      <h3 className="text-4xl tracking-wider p-10 text-center">Projects</h3>
+      <div className="flex justify-around flex-wrap">
         <Project
           img="/../public/happy_closet_icon.jpg"
           alt="happy-closet-icon"
@@ -51,6 +52,11 @@ export default function Home() {
           img="/../public/MWP-icon.png"
           alt="happy-closet-icon"
           des="Client Project for Minnesota Women's Press, a non-profit in Minneapolis."
+        />
+        <Project
+          img="/../public/weather-app-copy.png"
+          alt="happy-closet-icon"
+          des="Serverless weather application using AWS Lambda and weather API."
         />
       </div>
     </div>

@@ -4,7 +4,7 @@ import ProjectHover from './ProjectHover';
 export default function Project(props) {
   console.log(props);
   return (
-    <div className=" border border-solid rounded-md">
+    <div className=" border border-solid rounded-md m-5">
       <div className="w-52 h-52">
         <Image
           src={props.img}
