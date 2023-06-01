@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       <h3 className="text-4xl tracking-wider p-10 text-center">Projects</h3>
-      <div className="flex justify-around flex-wrap">
+      <div className="flex justify-around flex-wrap ">
         <Project
           img="/../public/happy_closet_icon.jpg"
           alt="happy-closet-icon"

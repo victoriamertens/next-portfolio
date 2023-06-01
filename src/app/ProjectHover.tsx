@@ -15,7 +15,7 @@ export default function ProjectHover(props: propsHover) {
         <a
           role="link"
           href={props.url}
-          className="border border-solid p-2 px-5 rounded-3xl m-4 text-blue-300"
+          className="text-center border border-solid p-2 px-5 rounded-3xl m-4 text-blue-300"
         >
           Go to Project
         </a>
