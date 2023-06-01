@@ -49,7 +49,7 @@ export default function About() {
         <button className="p-1"> Sustainability Coordinator |</button>
         <button className="p-1"> Author / Illustrator </button>
       </div>
-      <AboutCard />
+      <AboutCard url={test} />
     </div>
   );
 }
