@@ -1,8 +1,10 @@
 import Image from 'next/image';
 
 export default function AboutCard(props) {
+  let cardBackground = 'flex flex-col m-10 my-20 p-5 rounded-md ' + props.color;
+
   return (
-    <div className="flex flex-col m-10 my-20 p-5 border border-black rounded-md">
+    <div className={cardBackground}>
       <div className="flex items-center">
         <div id="top-left-about-card">
           <Image

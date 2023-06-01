@@ -59,7 +59,10 @@ export default function About() {
           Author / Illustrator
         </button>
       </div>
-      <AboutCard url={test} />
+      <AboutCard
+        url={test}
+        color="bg-green-700/75 shadow-lg shadow-green-800"
+      />
     </div>
   );
 }
