@@ -43,11 +43,21 @@ export default function About() {
         </div>
       </div>
       <div className="text-center text-lg">
-        <button className="p-1"> Software Engineer |</button>
-        <button className="p-1"> Researcher |</button>
-        <button className="p-1"> Rehab Fitness Specialist |</button>
-        <button className="p-1"> Sustainability Coordinator |</button>
-        <button className="p-1"> Author / Illustrator </button>
+        <button className="p-1 text-2xl focus-within:text-green-700">
+          Software Engineer |
+        </button>
+        <button className="p-1 text-2xl focus-within:text-purple-700">
+          Researcher |
+        </button>
+        <button className="p-1 text-2xl focus-within:text-blue-700">
+          Rehab Fitness Specialist |
+        </button>
+        <button className="p-1 text-2xl focus-within:text-green-700">
+          Sustainability Coordinator |
+        </button>
+        <button className="p-1 text-2xl focus-within:text-purple-700">
+          Author / Illustrator
+        </button>
       </div>
       <AboutCard url={test} />
     </div>
