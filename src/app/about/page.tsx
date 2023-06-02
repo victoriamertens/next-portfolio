@@ -8,6 +8,8 @@ import test from '../../../public/Headshot.kuzmin.jpg';
 import Image from 'next/image';
 import AboutCard from '../AboutCard';
 
+import Link from 'next/link';
+
 export default function About() {
   return (
     <div>
@@ -25,7 +27,12 @@ export default function About() {
               I am currently a Software Engineer, but I have worn many hats over
               the years.
             </p>
-            <p className=" md:text-lg text-base text-center w-[390px]"></p>
+            <a
+              href="./resume.pdf"
+              className="w-40 md:text-lg text-base text-center text-blue-700 border border-blue-700 bg-blue-100 rounded-md p-1"
+            >
+              view my resume
+            </a>
           </div>
         </div>
 
@@ -59,6 +66,7 @@ export default function About() {
           Author / Illustrator
         </button>
       </div>
+
       <AboutCard
         url={test}
         color="bg-green-700/75 shadow-lg shadow-green-800"

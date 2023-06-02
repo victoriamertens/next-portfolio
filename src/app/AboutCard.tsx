@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import waves from '../../public/waves.svg';
 
 export default function AboutCard(props) {
   let cardBackground = 'flex flex-col m-10 my-20 p-5 rounded-md ' + props.color;
