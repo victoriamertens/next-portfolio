@@ -4,6 +4,8 @@ export const metadata = {
 };
 
 import me from '../../../public/walking-me.png';
+import photome from '../../../public/about-fun.jpeg';
+
 import test from '../../../public/Headshot.kuzmin.jpg';
 import Image from 'next/image';
 import AboutCard from '../AboutCard';
@@ -18,15 +20,18 @@ export default function About() {
           id="left-side"
           className="flex flex-col items-center gap-4 justify-center "
         >
-          <h2 className=" sm:text-5xl text-4xl font-bold tracking-wider ">
-            Hi, I am Victoria
+          <h2 className=" sm:text-5xl text-4xl tracking-wider ">
+            Hi, my name is
+          </h2>
+          <h2 className=" sm:text-5xl font-bold text-4xl tracking-widest ">
+            Victoria
           </h2>
 
           <div className="flex flex-col items-center w-80 sm:w-96">
             <p className="flex justify-items-center sm:text-xl text-center text-lg p-5 ">
-              I am currently a Software Engineer, but I have worn many hats over
-              the years.
+              I think I am pretty cool, but I am a bit biased.
             </p>
+
             <a
               href="./resume.pdf"
               className="w-40 md:text-lg text-base text-center text-blue-700 border border-blue-700 bg-blue-100 rounded-md p-1"
@@ -49,28 +54,68 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="text-center text-lg">
-        <button className="p-1 text-2xl focus-within:text-green-700">
-          Software Engineer |
-        </button>
-        <button className="p-1 text-2xl focus-within:text-purple-700">
-          Researcher |
-        </button>
-        <button className="p-1 text-2xl focus-within:text-blue-700">
-          Rehab Fitness Specialist |
-        </button>
-        <button className="p-1 text-2xl focus-within:text-green-700">
-          Sustainability Coordinator |
-        </button>
-        <button className="p-1 text-2xl focus-within:text-purple-700">
-          Author / Illustrator
-        </button>
-      </div>
+      <div id="About-Card" className="p-10">
+        {/* <div>
+          <h2 className="text-5xl text-white py-10 border bg-blue-500 -ml-14 w-72 rounded-r-full pl-5 font-bold tracking-wider">
+            About Me
+          </h2>
+        </div> */}
 
-      <AboutCard
-        url={test}
-        color="bg-green-700/75 shadow-lg shadow-green-800"
-      />
+        <div className="flex flex-col">
+          <h3 className="my-10 text-3xl">I build applicaitons that are...</h3>
+          <div className="flex justify-around">
+            <div className="border border-black w-40 h-40">
+              <h3 className="border border-black bg-blue-600 -mt-2 -ml-2 w-5">
+                1
+              </h3>
+              <h3 className="text-xl font-bold">Accesible</h3>
+              <p>
+                Accessibility is a moving target, one that we should constantly
+                be striving for.
+              </p>
+            </div>
+            <div className="border border-black w-40 mt-10 h-40">
+              <h3 className="border border-black bg-blue-600 -mt-2 -ml-2 w-5">
+                2
+              </h3>
+              <h3 className="text-xl font-bold">Responsive</h3>
+              <p>
+                Responsive applications make a better experience for users of
+                all abilities and needs.
+              </p>
+            </div>
+            <div className="border border-black w-40 mt-20 h-40">
+              <h3 className="border border-black bg-blue-600 -mt-2 -ml-2 w-5">
+                3
+              </h3>
+              <h3 className="text-xl font-bold">Engaging</h3>
+              <p>
+                Building engaging applications means connecting with users,
+                designing a highly usable product, and making an impression.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
+
+// <div className="flex justify-evenly items-center my-10">
+//             <Image
+//               src={photome}
+//               alt="Victoria with sunglasses on"
+//               width={200}
+//               height={300}
+//               className="object-cover h-60 w-60 overflow-hidden rounded-full"
+//             />
+//             <div className="bg-blue-300 px-10 py-2 mt-20 -ml-56">
+//               <p className="w-80 text-lg">
+//                 At my core, I am a creator and a learner. I love to build and
+//                 create things, whether they are stored in 8-bit, use a drill
+//                 bit, or are just a bit of my imagination. My projects often push
+//                 me to learn new things and develop new skills so that I never
+//                 stop learning.
+//               </p>
+//             </div>
+//           </div>
