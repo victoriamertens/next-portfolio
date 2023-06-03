@@ -15,9 +15,11 @@ import Link from 'next/link';
 export default function About() {
   return (
     <div>
-      <div className="border-8 bg-red-500 opacity-30 blur-md"></div>
-      <div className="bg-yellow-300 rounded-md h-72 w-72 opacity-40 blur-md ml-80 -mb-52"></div>
-      <div className="bg-blue-700 rounded-full h-96 w-96 opacity-50 blur-xl -mb-96"></div>
+      <div className="relative w-full max-w-lg">
+        <div className="absolute top-10 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob ease-linear"></div>
+        <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-8 top-28 left-28 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+      </div>
       <div className="flex flex-col-reverse sm:flex-row align-middle  my-20 justify-center">
         <div
           id="left-side"
