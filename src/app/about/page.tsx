@@ -26,11 +26,11 @@ export default function About() {
           id="left-side"
           className="flex flex-col items-center gap-4 justify-center "
         >
-          <h2 className=" sm:text-5xl text-4xl tracking-wider ">
-            Hi, my name is
-          </h2>
-          <h2 className=" sm:text-5xl font-bold text-4xl tracking-widest ">
-            Victoria
+          <h2 className=" sm:text-5xl text-4xl tracking-wider w-[450px] text-center leading-loose">
+            Hi, my name is{' '}
+            <span className="sm:text-5xl font-bold text-4xl tracking-widest p-10">
+              Victoria
+            </span>
           </h2>
 
           <div className="flex flex-col items-center w-80 sm:w-96">
