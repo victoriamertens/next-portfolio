@@ -15,6 +15,9 @@ import Link from 'next/link';
 export default function About() {
   return (
     <div>
+      <div className="border-8 bg-red-500 opacity-30 blur-md"></div>
+      <div className="bg-yellow-300 rounded-md h-72 w-72 opacity-40 blur-md ml-80 -mb-52"></div>
+      <div className="bg-blue-700 rounded-full h-96 w-96 opacity-50 blur-xl -mb-96"></div>
       <div className="flex flex-col-reverse sm:flex-row align-middle  my-20 justify-center">
         <div
           id="left-side"
@@ -60,6 +63,22 @@ export default function About() {
             About Me
           </h2>
         </div> */}
+        <div className="flex flex-col sm:flex-row justify-evenly items-center my-10 gap-10">
+          <Image
+            src={photome}
+            alt="Victoria with sunglasses on"
+            // width={200}
+            // height={300}
+            className="object-cover h-60  w-60 basis-60 grow-0 shrink-0 overflow-hidden rounded-full"
+          />
+
+          <p className=" text-lg max-w-xl">
+            At my core, I am a creator and a learner. I love to build and create
+            things, whether they are stored in 8-bit, use a drill bit, or are
+            just a bit of my imagination. My projects often push me to learn new
+            things and develop new skills so that I never stop learning.
+          </p>
+        </div>
 
         <div className="flex flex-col">
           <h3 className="my-10 text-3xl">I build applicaitons that are...</h3>
@@ -101,21 +120,4 @@ export default function About() {
   );
 }
 
-// <div className="flex justify-evenly items-center my-10">
-//             <Image
-//               src={photome}
-//               alt="Victoria with sunglasses on"
-//               width={200}
-//               height={300}
-//               className="object-cover h-60 w-60 overflow-hidden rounded-full"
-//             />
-//             <div className="bg-blue-300 px-10 py-2 mt-20 -ml-56">
-//               <p className="w-80 text-lg">
-//                 At my core, I am a creator and a learner. I love to build and
-//                 create things, whether they are stored in 8-bit, use a drill
-//                 bit, or are just a bit of my imagination. My projects often push
-//                 me to learn new things and develop new skills so that I never
-//                 stop learning.
-//               </p>
-//             </div>
-//           </div>
+//
