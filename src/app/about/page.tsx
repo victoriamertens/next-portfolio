@@ -5,28 +5,21 @@ export const metadata = {
 
 import me from '../../../public/walking-me.png';
 import photome from '../../../public/about-fun.jpeg';
-
-import test from '../../../public/Headshot.kuzmin.jpg';
 import Image from 'next/image';
-import AboutCard from '../AboutCard';
+import RainbowBlob from '../projects/RainbowBlob';
 
 import Link from 'next/link';
 
 export default function About() {
   return (
     <div>
-      <div className="relative w-full max-w-lg">
-        <div className="absolute top-10 left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob ease-linear"></div>
-        <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute -bottom-8 top-28 left-28 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000"></div>
-        <div className="absolute -bottom-14 top-10 -right-32 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-7000"></div>
-      </div>
+      <RainbowBlob />
       <div className="flex flex-col-reverse sm:flex-row align-middle  my-20 justify-center">
         <div
           id="left-side"
           className="flex flex-col items-center gap-4 justify-center "
         >
-          <h2 className=" sm:text-5xl text-4xl tracking-wider w-[450px] text-center leading-loose">
+          <h2 className=" sm:text-5xl text-4xl tracking-wider w-[450px] text-center drop-shadow-xl shadow-white leading-loose z-10">
             Hi, my name is{' '}
             <span className="sm:text-5xl font-bold text-4xl tracking-widest p-10">
               Victoria
@@ -40,7 +33,7 @@ export default function About() {
 
             <a
               href="./resume.pdf"
-              className="w-40 md:text-lg text-base text-center text-blue-700 border border-blue-700 bg-blue-100 rounded-md p-1"
+              className="w-40 md:text-lg text-base text-center text-blue-700 border border-blue-700 bg-blue-100 rounded-md p-1 z-10"
             >
               view my resume
             </a>
