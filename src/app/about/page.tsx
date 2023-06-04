@@ -19,15 +19,15 @@ export default function About() {
           id="left-side"
           className="flex flex-col items-center gap-4 justify-center "
         >
-          <h2 className=" sm:text-5xl text-4xl tracking-wider w-[450px] text-center drop-shadow-xl shadow-white leading-loose z-10">
+          <h2 className=" sm:text-5xl text-4xl tracking-wider w-[450px] text-shadow-white text-center leading-loose z-10">
             Hi, my name is{' '}
             <span className="sm:text-5xl font-bold text-4xl tracking-widest p-10">
               Victoria
             </span>
           </h2>
 
-          <div className="flex flex-col items-center w-80 sm:w-96">
-            <p className="flex justify-items-center sm:text-xl text-center text-lg p-5 ">
+          <div className="flex flex-col items-center w-80 sm:w-96 z-10">
+            <p className="flex justify-items-center sm:text-xl text-center text-shadow-white text-lg p-5 ">
               I think I am pretty cool, but I am a bit biased.
             </p>
 
