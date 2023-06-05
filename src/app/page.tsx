@@ -38,7 +38,7 @@ export default function Home() {
             src={me}
             // width={300}
             alt="Cartoon of Victoria holding MacBook and coffee"
-            className="sm:w-72 w-52"
+            className="sm:w-80 w-52"
             priority={true}
           />
         </div>
