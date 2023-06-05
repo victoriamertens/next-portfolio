@@ -4,6 +4,7 @@ export const metadata = {
 };
 
 import me from '../../../public/walking-me.png';
+import victoriamain from '../../../public/victoria-main.jpeg';
 import photome from '../../../public/about-fun.jpeg';
 import Image from 'next/image';
 import RainbowBlob from '../RainbowBlob';
@@ -67,41 +68,54 @@ export default function About() {
           />
 
           <p className=" text-lg max-w-xl">
-            At my core, I am a creator and a learner. I love to build and create
-            things, whether they are stored in 8-bit, use a drill bit, or are
-            just a bit of my imagination. My projects often push me to learn new
-            things and develop new skills so that I never stop learning.
+            At my core, I am a creator and a learner. I love to build things,
+            whether they are stored in 8-bit, use a drill bit, or are just a bit
+            of my imagination. My projects often push me to learn new things and
+            develop new skills so that I never stop learning.
           </p>
         </div>
 
         <div className="flex flex-col">
-          <h3 className="my-10 text-3xl">I build applicaitons that are...</h3>
+          <h3 className="my-10 text-3xl">More about me...</h3>
           <div className="flex justify-around">
-            <div className="border border-black w-40 h-40">
-              <h3 className="border border-black bg-blue-600 -mt-2 -ml-2 w-5">
-                1
-              </h3>
-              <h3 className="text-xl font-bold">Accesible</h3>
+            <div className="border border-black w-96 flex flex-col justify-center items-center">
+              <div className="flex">
+                <div className="flex flex-col justify-center">&#9999;</div>
+                <h3 className="text-xl font-bold p-2">
+                  I'm an Author / Illustrator
+                </h3>
+                <div className="flex flex-col justify-center">
+                  &#128397;&#65039;
+                </div>
+              </div>
+              <p className="p-5">
+                My very first dream was to be a writer. At 12 years old I wrote
+                my first book (and yes, it is embarassingly funny) and now I am
+                working on a graphic novel.
+              </p>
               <p>
-                Accessibility is a moving target, one that we should constantly
-                be striving for.
+                Check out my blog{' '}
+                <a
+                  href="https://medium.com/@victoria.mertens44"
+                  className="inline underline text-blue-700"
+                >
+                  here
+                </a>
+                !
               </p>
             </div>
             <div className="border border-black w-40 mt-10 h-40">
-              <h3 className="border border-black bg-blue-600 -mt-2 -ml-2 w-5">
-                2
+              <h3 className="text-xl font-bold">
+                {' '}
+                &#x1f9d7;I'm a Rock Climber
               </h3>
-              <h3 className="text-xl font-bold">Responsive</h3>
               <p>
-                Responsive applications make a better experience for users of
-                all abilities and needs.
+                Whether it is top-rope climbing or bouldering, I love to climb
+                colorful walls.
               </p>
             </div>
             <div className="border border-black w-40 mt-20 h-40">
-              <h3 className="border border-black bg-blue-600 -mt-2 -ml-2 w-5">
-                3
-              </h3>
-              <h3 className="text-xl font-bold">Engaging</h3>
+              <h3 className="text-xl font-bold">I love to sew</h3>
               <p>
                 Building engaging applications means connecting with users,
                 designing a highly usable product, and making an impression.
