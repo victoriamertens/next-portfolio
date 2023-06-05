@@ -2,27 +2,29 @@ import Image from 'next/image';
 import Description from './Description';
 import me from '../../public/walking-me.png';
 import Project from './Project';
+import RainbowBlob from './RainbowBlob';
 
 export default function Home() {
   return (
     <div>
+      <RainbowBlob />
       <div className="flex flex-col-reverse sm:flex-row align-middle h-96 my-20 justify-center">
         <div
           id="left-side"
-          className="flex flex-col items-center gap-4 justify-center"
+          className="flex flex-col items-center gap-4 justify-center z-10"
         >
-          <h2 className=" sm:text-7xl text-4xl font-bold tracking-wider">
+          <h2 className=" sm:text-7xl text-4xl font-bold tracking-wider text-shadow-white">
             Victoria
           </h2>
-          <h2 className="sm:text-7xl text-4xl font-bold tracking-wider">
+          <h2 className="sm:text-7xl text-4xl font-bold tracking-wider text-shadow-white">
             {' '}
             Mertens
           </h2>
           <div className="flex flex-col items-center">
-            <p className="flex justify-items-center sm:text-2xl text-lg p-5 font-bold">
+            <p className="flex justify-items-center sm:text-2xl text-lg p-5 font-bold text-shadow-white z-10">
               Software Engineer
             </p>
-            <p className=" md:text-xl text-base text-center w-[390px]">
+            <p className=" md:text-xl text-base text-center w-[390px] text-shadow-white ">
               Building applications that are <Description />
             </p>
           </div>

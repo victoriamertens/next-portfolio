@@ -6,9 +6,7 @@ export const metadata = {
 import me from '../../../public/walking-me.png';
 import photome from '../../../public/about-fun.jpeg';
 import Image from 'next/image';
-import RainbowBlob from '../projects/RainbowBlob';
-
-import Link from 'next/link';
+import RainbowBlob from '../RainbowBlob';
 
 export default function About() {
   return (
