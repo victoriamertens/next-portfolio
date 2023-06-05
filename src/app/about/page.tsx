@@ -78,7 +78,10 @@ export default function About() {
         <div className="flex flex-col">
           <h3 className="my-10 text-3xl">More about me...</h3>
           <div className="flex justify-around">
-            <div className="border border-black w-96 flex flex-col justify-center items-center">
+            <div
+              id="author-illustrator-box"
+              className="border border-black w-96 flex flex-col justify-center items-center"
+            >
               <div className="flex">
                 <div className="flex flex-col justify-center">&#9999;</div>
                 <h3 className="text-xl font-bold p-2">
@@ -104,21 +107,48 @@ export default function About() {
                 !
               </p>
             </div>
-            <div className="border border-black w-40 mt-10 h-40">
-              <h3 className="text-xl font-bold">
-                {' '}
-                &#x1f9d7;I'm a Rock Climber
-              </h3>
-              <p>
+
+            <div
+              id="rock-climbing-box"
+              className="border border-black w-96 flex flex-col justify-center items-center"
+            >
+              <div className="flex">
+                <div className="flex flex-col justify-center"> &#x1f9d7;</div>
+                <h3 className="text-xl font-bold p-2">I'm a Rock Climber</h3>
+              </div>
+              <p className="p-5">
                 Whether it is top-rope climbing or bouldering, I love to climb
                 colorful walls.
               </p>
             </div>
-            <div className="border border-black w-40 mt-20 h-40">
-              <h3 className="text-xl font-bold">I love to sew</h3>
-              <p>
-                Building engaging applications means connecting with users,
-                designing a highly usable product, and making an impression.
+
+            <div
+              id="research-box"
+              className="border border-black w-96 flex flex-col justify-center items-center"
+            >
+              <div className="flex">
+                <div className="flex flex-col justify-center"> &#x1f9d7;</div>
+                <h3 className="text-xl font-bold p-2">I'm a Researcher!</h3>
+              </div>
+              <p className="p-5">
+                In college, I completed a research study on mental health and
+                absolutely loved the experience. Now, I research for fun, often
+                go on 'deep dives' into topics like food science and design
+                topics.
+              </p>
+            </div>
+
+            <div
+              id="sewing-box"
+              className="border border-black w-96 flex flex-col justify-center items-center"
+            >
+              <div className="flex">
+                <div className="flex flex-col justify-center"> &#x1f9d7;</div>
+                <h3 className="text-xl font-bold p-2">I love to sew!</h3>
+              </div>
+              <p className="p-5">
+                I love designing my own clothes and modernizing vintage pieces
+                into something that is uniquely me.
               </p>
             </div>
           </div>
