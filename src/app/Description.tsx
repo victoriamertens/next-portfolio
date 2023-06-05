@@ -21,7 +21,7 @@ export default function Description() {
   }
 
   return (
-    <span className="text-lg md:text-xl px-1 font-bold uppercase bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+    <span className="text-lg md:text-xl px-1 font-bold uppercase ">
       {options[count]}
     </span>
   );
