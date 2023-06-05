@@ -40,7 +40,7 @@ export default function About() {
 
         <div
           id="right-side"
-          className="flex flex-col items-center max-h-70 -mr-10"
+          className="flex flex-col items-center max-h-70 -mr-10 z-10"
         >
           <Image
             src={me}
