@@ -12,7 +12,7 @@ type propsProject = {
 export default function Project(props: propsProject) {
   console.log(props);
   return (
-    <div className=" border border-solid rounded-md m-5">
+    <div className=" border border-solid rounded-md m-5 w-72 h-72">
       <div className="w-72 h-72">
         <Image
           src={props.img}
