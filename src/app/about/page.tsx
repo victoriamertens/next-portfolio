@@ -77,18 +77,19 @@ export default function About() {
 
         <div id="more-about-me" className="flex flex-col">
           <h3 className="my-10 text-3xl">More about me...</h3>
-          <div className="flex justify-around flex-wrap">
+          <div className="flex justify-around flex-wrap ">
             <div
               id="author-illustrator-box"
-              className="m-10 p-4 border border-black bg-white rounded-lg w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-indigo-500/50 via-purple-500/50- to-yellow-300/50"
             >
-              <div className="flex">
+              <div className="flex ">
                 <div
-                  className="flex flex-col justify-center"
+                  className=" flex flex-col justify-center"
                   aria-hidden={true}
                 >
                   &#9999;
                 </div>
+
                 <h3 className="text-xl font-bold p-2">
                   I'm an Author / Illustrator!
                 </h3>
@@ -117,7 +118,7 @@ export default function About() {
 
             <div
               id="rock-climbing-box"
-              className="m-10 p-4 border border-black rounded-lg w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-yellow-500/50 via-purple-500/50- to-pink-500/50"
             >
               <div className="flex">
                 <div
@@ -137,7 +138,7 @@ export default function About() {
 
             <div
               id="research-box"
-              className="m-10 p-4 border border-black rounded-lg w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-pink-500/50 via-purple-500/50- to-yellow-300/50"
             >
               <div className="flex">
                 <div
@@ -158,7 +159,7 @@ export default function About() {
 
             <div
               id="sewing-box"
-              className="m-10 p-4 border border-black rounded-lg w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-yellow-500/50 via-purple-500/50- to-indigo-500/50"
             >
               <div className="flex">
                 <div
