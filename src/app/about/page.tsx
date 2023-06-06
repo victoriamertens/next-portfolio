@@ -47,7 +47,7 @@ export default function About() {
             src={me}
             // width={300}
             alt="Cartoon of Victoria holding MacBook and coffee"
-            className="sm:w-72 w-52"
+            className="sm:w-80 w-52"
             priority={true}
           />
         </div>
@@ -75,19 +75,27 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex flex-col">
+        <div id="more-about-me" className="flex flex-col">
           <h3 className="my-10 text-3xl">More about me...</h3>
-          <div className="flex justify-around">
+          <div className="flex justify-around flex-wrap">
             <div
               id="author-illustrator-box"
-              className="border border-black w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border border-black bg-white rounded-lg w-96 flex flex-col justify-center items-center"
             >
               <div className="flex">
-                <div className="flex flex-col justify-center">&#9999;</div>
+                <div
+                  className="flex flex-col justify-center"
+                  aria-hidden={true}
+                >
+                  &#9999;
+                </div>
                 <h3 className="text-xl font-bold p-2">
-                  I'm an Author / Illustrator
+                  I'm an Author / Illustrator!
                 </h3>
-                <div className="flex flex-col justify-center">
+                <div
+                  className="flex flex-col justify-center"
+                  aria-hidden={true}
+                >
                   &#128397;&#65039;
                 </div>
               </div>
@@ -97,58 +105,81 @@ export default function About() {
                 working on a graphic novel.
               </p>
               <p>
-                Check out my blog{' '}
+                {' '}
                 <a
                   href="https://medium.com/@victoria.mertens44"
                   className="inline underline text-blue-700"
                 >
-                  here
+                  Check out my blog!
                 </a>
-                !
               </p>
             </div>
 
             <div
               id="rock-climbing-box"
-              className="border border-black w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border border-black rounded-lg w-96 flex flex-col justify-center items-center"
             >
               <div className="flex">
-                <div className="flex flex-col justify-center"> &#x1f9d7;</div>
-                <h3 className="text-xl font-bold p-2">I'm a Rock Climber</h3>
+                <div
+                  className="flex flex-col justify-center"
+                  aria-hidden={true}
+                >
+                  &#x1f9d7;
+                </div>
+                <h3 className="text-xl font-bold p-2">I'm a Rock Climber!</h3>
               </div>
               <p className="p-5">
                 Whether it is top-rope climbing or bouldering, I love to climb
-                colorful walls.
+                colorful walls. It is like a puzzle for your body! I enjoy the
+                cognitive and physical challenge of it.
               </p>
             </div>
 
             <div
               id="research-box"
-              className="border border-black w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border border-black rounded-lg w-96 flex flex-col justify-center items-center"
             >
               <div className="flex">
-                <div className="flex flex-col justify-center"> &#x1f9d7;</div>
+                <div
+                  className="flex flex-col justify-center"
+                  aria-hidden={true}
+                >
+                  {' '}
+                  &#128300;
+                </div>
                 <h3 className="text-xl font-bold p-2">I'm a Researcher!</h3>
               </div>
               <p className="p-5">
                 In college, I completed a research study on mental health and
                 absolutely loved the experience. Now, I research for fun, often
-                go on 'deep dives' into topics like food science and design
-                topics.
+                going on 'deep dives' into topics like food science and design.
               </p>
             </div>
 
             <div
               id="sewing-box"
-              className="border border-black w-96 flex flex-col justify-center items-center"
+              className="m-10 p-4 border border-black rounded-lg w-96 flex flex-col justify-center items-center"
             >
               <div className="flex">
-                <div className="flex flex-col justify-center"> &#x1f9d7;</div>
-                <h3 className="text-xl font-bold p-2">I love to sew!</h3>
+                <div
+                  className="flex flex-col justify-center"
+                  aria-hidden={true}
+                >
+                  {' '}
+                  &#129697;;
+                </div>
+                <h3 className="text-xl font-bold p-2">I'm a Creator!</h3>
+                <div
+                  className="flex flex-col justify-center"
+                  aria-hidden={true}
+                >
+                  &#128296;
+                </div>
               </div>
               <p className="p-5">
-                I love designing my own clothes and modernizing vintage pieces
-                into something that is uniquely me.
+                I love making all different kinds of things! I design my own
+                clothes and upcycle vintage pieces into something uniquely me. I
+                enjoy woodworking and restoring old furniture.
               </p>
             </div>
           </div>
