@@ -167,7 +167,7 @@ export default function About() {
                   aria-hidden={true}
                 >
                   {' '}
-                  &#129697;;
+                  &#129697;
                 </div>
                 <h3 className="text-xl font-bold p-2">I'm a Creator!</h3>
                 <div
