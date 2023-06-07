@@ -91,7 +91,7 @@ export default function About() {
                 </div>
 
                 <h3 className="text-xl font-bold p-2">
-                  I'm an Author / Illustrator!
+                  I am an Author / Illustrator!
                 </h3>
                 <div
                   className="flex flex-col justify-center"
@@ -127,7 +127,7 @@ export default function About() {
                 >
                   &#x1f9d7;
                 </div>
-                <h3 className="text-xl font-bold p-2">I'm a Rock Climber!</h3>
+                <h3 className="text-xl font-bold p-2">I am a Rock Climber!</h3>
               </div>
               <p className="p-5">
                 Whether it is top-rope climbing or bouldering, I love to climb
@@ -148,12 +148,12 @@ export default function About() {
                   {' '}
                   &#128300;
                 </div>
-                <h3 className="text-xl font-bold p-2">I'm a Researcher!</h3>
+                <h3 className="text-xl font-bold p-2">I am a Researcher!</h3>
               </div>
               <p className="p-5">
                 In college, I completed a research study on mental health and
                 absolutely loved the experience. Now, I research for fun, often
-                going on 'deep dives' into topics like food science and design.
+                going on deep dives into topics like food science and design.
               </p>
             </div>
 
@@ -169,7 +169,7 @@ export default function About() {
                   {' '}
                   &#129697;
                 </div>
-                <h3 className="text-xl font-bold p-2">I'm a Creator!</h3>
+                <h3 className="text-xl font-bold p-2">I am a Creator!</h3>
                 <div
                   className="flex flex-col justify-center"
                   aria-hidden={true}
