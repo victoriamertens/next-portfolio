@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div>
       <RainbowBlob />
-      <div className="flex flex-col-reverse sm:flex-row align-middle h-96 my-20 justify-center">
+      <div className="flex flex-col-reverse items-center  sm:flex-row sm:align-middle h-96 my-20 sm:justify-center">
         <div
           id="left-side"
-          className="flex flex-col items-center gap-4 justify-center "
+          className="flex flex-col items-center gap-4 justify-center max-w-[400px]"
         >
-          <h2 className="sm:text-7xl sm:w-10 text-4xl font-bold tracking-wider text-shadow-white z-10">
+          <h2 className="sm:text-7xl text-4xl font-bold tracking-wider text-shadow-white z-10 text-center">
             Victoria Mertens
           </h2>
           <div className="flex flex-col items-center">
