@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div>
       <RainbowBlob />
-      <div className="flex flex-col-reverse sm:flex-row align-middle  my-20 justify-center">
+      <div className="flex flex-col-reverse sm:flex-row sm:align-middle my-20 sm:justify-center">
         <div
           id="left-side"
           className="flex flex-col items-center gap-4 justify-center "

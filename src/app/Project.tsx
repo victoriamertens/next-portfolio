@@ -22,14 +22,15 @@ export default function Project(props: propsProject) {
           alt={props.alt}
         />
       </div>
-      <div className="relative  bg-blue-600 rounded-md  opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+      <div className="relative  bg-blue-600 rounded-md transition duration-300 ease-in-out ">
         <ProjectHover des={props.des} url={props.url} name={props.name} />
       </div>
-      <div className="-mt-10 text-center sm:hidden ">
+      <div className="-mt-10 text-center">
         <a
           role="link"
           href={props.url}
-          className="text-center border border-solid p-2 px-5 rounded-3xl m-4 text-white bg-blue-700"
+          tabIndex={0}
+          className="text-center border border-solid p-2 px-5 rounded-3xl m-4 text-white bg-blue-700 opacity-0 focus:opacity-100"
         >
           Go to Project
         </a>

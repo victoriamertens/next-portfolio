@@ -20,22 +20,19 @@ export default function RootLayout({
               <Link
                 href="/"
                 className="align-middle text-xl font-bold text-cyan-700"
+                tabIndex={5}
               >
                 Victoria Mertens
               </Link>
             </h1>
             <div>
-              <Link className="align-middle" href="/projects">
-                Projects
-              </Link>
-              <p className="inline px-1">|</p>
               <Link className="align-middle" href="/about">
                 About
               </Link>
             </div>
           </div>
         </header>
-        <main className="grow">
+        <main id="maincontent" className="grow">
           <div className="max-w-6xl mx-auto sm:px-5 px-3 ">{children}</div>
         </main>
         <footer className="flex justify-center">

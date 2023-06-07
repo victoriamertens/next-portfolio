@@ -13,18 +13,14 @@ export default function Home() {
           id="left-side"
           className="flex flex-col items-center gap-4 justify-center z-10 w-[285px]"
         >
-          <h2 className=" sm:text-7xl text-4xl font-bold tracking-wider text-shadow-white">
+          <h2 className="sm:text-7xl text-4xl font-bold tracking-wider text-shadow-white">
             Victoria Mertens
           </h2>
           <div className="flex flex-col items-center">
             <p className="flex justify-items-center sm:text-2xl text-lg p-5 font-bold text-shadow-white z-10">
               Software Engineer
             </p>
-            <p
-              className=" md:text-xl text-base text-center w-[390px] text-shadow-white"
-              aria-live="polite"
-              aria-atomic="true"
-            >
+            <p className=" md:text-xl text-base text-center w-[390px] text-shadow-white">
               Building applications that are <Description />
             </p>
           </div>
