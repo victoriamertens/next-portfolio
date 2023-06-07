@@ -6,7 +6,7 @@ type propsHover = {
 
 export default function ProjectHover(props: propsHover) {
   return (
-    <div className="absolute bottom-0 flex flex-col  p-4 w-72 h-72 rounded-md bg-blue-600 opacity-0 focus:opacity-100">
+    <div className="absolute bottom-0 flex flex-col  p-4 w-72 h-72 rounded-md bg-blue-600 opacity-0 hover:opacity-100">
       <div className="flex flex-col justify-center  h-72">
         <h3 className="text-2xl text-white p-2 text-center ">{props.name}</h3>
         <p className="text-center  text-lg text-white opacity-100 z-10">
