@@ -11,9 +11,9 @@ export default function Home() {
       <div className="flex flex-col-reverse sm:flex-row align-middle h-96 my-20 justify-center">
         <div
           id="left-side"
-          className="flex flex-col items-center gap-4 justify-center z-10 w-[285px]"
+          className="flex flex-col items-center gap-4 justify-center "
         >
-          <h2 className="sm:text-7xl text-4xl font-bold tracking-wider text-shadow-white">
+          <h2 className="sm:text-7xl sm:w-10 text-4xl font-bold tracking-wider text-shadow-white z-10">
             Victoria Mertens
           </h2>
           <div className="flex flex-col items-center">
