@@ -27,7 +27,7 @@ export default function Project(props: propsProject) {
           <ProjectHover des={props.des} url={props.url} name={props.name} />
         </div>
       </div>
-      <div className="-mt-16 text-center">
+      <div className="text-center">
         <a
           role="link"
           href={props.url}

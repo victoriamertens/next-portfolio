@@ -6,7 +6,7 @@ import RainbowBlob from './RainbowBlob';
 
 export default function Home() {
   return (
-    <div>
+    <div className="mb-10">
       <RainbowBlob />
       <div className="flex flex-col-reverse items-center  sm:flex-row sm:align-middle h-96 my-20 sm:justify-center">
         <div
