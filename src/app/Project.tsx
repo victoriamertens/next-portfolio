@@ -23,7 +23,7 @@ export default function Project(props: propsProject) {
             alt={props.alt}
           />
         </div>
-        <div className="relative  bg-blue-600 rounded-md transition duration-300 ease-in-out ">
+        <div className="relative  bg-blue-600 rounded-md">
           <ProjectHover des={props.des} url={props.url} name={props.name} />
         </div>
       </div>
