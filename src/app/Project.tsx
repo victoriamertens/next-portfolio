@@ -1,8 +1,15 @@
 import Image from 'next/image';
 import ProjectHover from './ProjectHover';
 
+type StaticImageData = {
+  src: string;
+  height: number;
+  width: number;
+  placeholder?: string;
+};
+
 type propsProject = {
-  img: string;
+  img: StaticImageData;
   alt: string;
   des: string;
   url: string;
