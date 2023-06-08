@@ -34,16 +34,6 @@ export default function Project(props: propsProject) {
           <ProjectHover des={props.des} url={props.url} name={props.name} />
         </div>
       </div>
-      <div className="text-center">
-        <a
-          role="link"
-          href={props.url}
-          tabIndex={0}
-          className="opacity-0 focus:opacity-100 text-center border border-solid p-2 px-5 rounded-3xl m-4 text-white bg-blue-700 w-96"
-        >
-          Go to {props.name}
-        </a>
-      </div>
     </div>
   );
 }

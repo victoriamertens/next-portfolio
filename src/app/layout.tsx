@@ -19,15 +19,15 @@ export default function RootLayout({
             <h1>
               <Link
                 href="/"
-                className="align-middle text-xl font-bold text-cyan-700"
+                className="align-middle text-3xl text-cyan-700 font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-blue-700 via-pink-700 to-yellow-700"
                 tabIndex={5}
               >
                 Victoria Mertens
               </Link>
             </h1>
             <div>
-              <Link className="align-middle" href="/about">
-                About
+              <Link className="align-middle text-lg font-bold" href="/about">
+                About Page
               </Link>
             </div>
           </div>

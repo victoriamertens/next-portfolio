@@ -44,7 +44,6 @@ export default function About() {
         >
           <Image
             src={me}
-            // width={300}
             alt="Cartoon of Victoria holding MacBook and coffee"
             className="sm:w-80 w-52"
             priority={true}
@@ -52,17 +51,10 @@ export default function About() {
         </div>
       </div>
       <div id="About-Card" className="p-10">
-        {/* <div>
-          <h2 className="text-5xl text-white py-10 border bg-blue-500 -ml-14 w-72 rounded-r-full pl-5 font-bold tracking-wider">
-            About Me
-          </h2>
-        </div> */}
         <div className="flex flex-col sm:flex-row justify-evenly items-center my-10 gap-10">
           <Image
             src={photome}
             alt="Victoria with sunglasses on"
-            // width={200}
-            // height={300}
             className="object-cover h-60  w-60 basis-60 grow-0 shrink-0 overflow-hidden rounded-full"
           />
 
@@ -79,7 +71,7 @@ export default function About() {
           <div className="flex justify-around flex-wrap ">
             <div
               id="author-illustrator-box"
-              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-indigo-500/50 via-purple-500/50- to-yellow-300/50"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center bg-gradient-to-r from-indigo-500/50 via-purple-500/50- to-yellow-300/50"
             >
               <div className="flex ">
                 <div
@@ -117,7 +109,7 @@ export default function About() {
 
             <div
               id="rock-climbing-box"
-              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-yellow-500/50 via-purple-500/50- to-pink-500/50"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center bg-gradient-to-r from-yellow-500/50 via-purple-500/50- to-pink-500/50"
             >
               <div className="flex">
                 <div
@@ -137,7 +129,7 @@ export default function About() {
 
             <div
               id="research-box"
-              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-pink-500/50 via-purple-500/50- to-yellow-300/50"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center bg-gradient-to-r from-yellow-500/50 via-purple-500/50- to-indigo-500/50 "
             >
               <div className="flex">
                 <div
@@ -158,7 +150,7 @@ export default function About() {
 
             <div
               id="sewing-box"
-              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center hover:bg-gradient-to-r from-yellow-500/50 via-purple-500/50- to-indigo-500/50"
+              className="m-10 p-4 border shadow-2xl rounded-lg w-96 flex flex-col justify-center items-center bg-gradient-to-r from-pink-500/50 via-purple-500/50- to-yellow-300/50"
             >
               <div className="flex">
                 <div
