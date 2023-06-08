@@ -19,7 +19,7 @@ export default function RootLayout({
             <h1>
               <Link
                 href="/"
-                className="align-middle text-3xl text-cyan-700 font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-blue-700 via-pink-700 to-yellow-700"
+                className="align-middle text-3xl text-cyan-700 font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500"
                 tabIndex={5}
               >
                 Victoria Mertens
@@ -35,7 +35,7 @@ export default function RootLayout({
         <main id="maincontent" className="grow">
           <div className="max-w-6xl mx-auto sm:px-5 px-3 ">{children}</div>
         </main>
-        <footer className="flex justify-center">
+        <footer className="flex justify-center p-5">
           <p className="uppercase">
             &#169; {new Date().getFullYear()} - Victoria Mertens
           </p>

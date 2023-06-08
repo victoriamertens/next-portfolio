@@ -96,15 +96,15 @@ export default function About() {
                 my first book (and yes, it is embarassingly funny) and now I am
                 working on a graphic novel.
               </p>
-              <p>
-                {' '}
-                <a
-                  href="https://medium.com/@victoria.mertens44"
-                  className="inline underline text-blue-700"
-                >
-                  Check out my blog!
-                </a>
-              </p>
+
+              <a
+                href="https://medium.com/@victoria.mertens44"
+                className="inline underline text-blue-700 font-bold"
+                title="Blog Link"
+                aria-label="Read Victoria's blog posts on Medium.com"
+              >
+                Check out my blog!
+              </a>
             </div>
 
             <div
