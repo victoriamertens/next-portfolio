@@ -6,6 +6,7 @@ import RainbowBlob from './RainbowBlob';
 import MWP from '../../public/MWP-icon.png';
 import HC from '../../public/happy_closet_icon.jpg';
 import Weather from '../../public/weather-app-copy.png';
+import HC2 from '../../public/happy_closet_2_icon.png';
 
 export default function Home() {
   return (
@@ -67,6 +68,13 @@ export default function Home() {
           des="Serverless weather application using AWS Lambda and weather API."
           url="https://github.com/victoriamertens/100days/tree/main/packages/weather-app"
           name="Weather App API"
+        />
+        <Project
+          img={HC2}
+          alt="Happy Closet Version 2 Icon"
+          des="An app redesign with modern tech for superior user experience, accessibility, and data manipulation."
+          url="https://happy-closet-2-0.vercel.app/"
+          name="Happy Closet 2.0"
         />
       </div>
     </div>

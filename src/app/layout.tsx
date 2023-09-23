@@ -27,7 +27,7 @@ export default function RootLayout({
             </h1>
             <div>
               <Link className="align-middle text-lg font-bold" href="/about">
-                About Page
+                About
               </Link>
             </div>
           </div>
