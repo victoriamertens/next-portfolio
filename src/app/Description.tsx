@@ -20,7 +20,9 @@ export default function Description() {
       setCount(count + 1);
     }
   }
-
+  //Description on below strategy: by making the key value equal to count it tells React to re-render
+  //the whole component, not just the content, allowing the annimation to restart in synchrony with the
+  //useInterval function
   return (
     <p
       id="description"
