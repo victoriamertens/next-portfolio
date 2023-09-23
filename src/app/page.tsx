@@ -24,7 +24,7 @@ export default function Home() {
             <p className="flex justify-items-center sm:text-2xl text-lg p-5 font-bold text-shadow-white z-10">
               Software Engineer
             </p>
-            <div className="flex text-center">
+            <div className="flex -ml-14 text-center">
               <p className=" md:text-xl text-base text-shadow-white pr-1">
                 Building applications that are
               </p>
