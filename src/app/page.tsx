@@ -49,18 +49,11 @@ export default function Home() {
       <h3 className="text-4xl tracking-wider p-10 text-center">Projects</h3>
       <div className="flex justify-around flex-wrap ">
         <Project
-          img={HC}
-          alt="Happy Closet application icon"
-          des="A virtual closet application using AWS S3 for image upload."
-          url="http://www.happycloset.app"
-          name="Happy Closet"
-        />
-        <Project
-          img={MWP}
-          alt="Minnesota Women's Press Icon"
-          des="Client Project for Minnesota Women's Press, a non-profit in Minneapolis."
-          url="https://github.com/pdebuque/MN-Womens-Press-CM"
-          name="MWP Content Manager"
+          img={HC2}
+          alt="Happy Closet Version 2 Icon"
+          des="An app redesign with modern tech for superior user experience, accessibility, and data manipulation."
+          url="https://happy-closet-2-0.vercel.app/"
+          name="Happy Closet 2.0"
         />
         <Project
           img={Weather}
@@ -70,11 +63,18 @@ export default function Home() {
           name="Weather App API"
         />
         <Project
-          img={HC2}
-          alt="Happy Closet Version 2 Icon"
-          des="An app redesign with modern tech for superior user experience, accessibility, and data manipulation."
-          url="https://happy-closet-2-0.vercel.app/"
-          name="Happy Closet 2.0"
+          img={MWP}
+          alt="Minnesota Women's Press Icon"
+          des="Client Project for Minnesota Women's Press, a non-profit in Minneapolis."
+          url="https://github.com/pdebuque/MN-Womens-Press-CM"
+          name="MWP Content Manager"
+        />
+        <Project
+          img={HC}
+          alt="Happy Closet application icon"
+          des="A virtual closet application using AWS S3 for image upload."
+          url="http://www.happycloset.app"
+          name="Happy Closet"
         />
       </div>
     </div>
