@@ -30,7 +30,7 @@ export default function About() {
             </p>
 
             <a
-              href="./resume.pdf"
+              href="./resume2.pdf"
               className="w-40 md:text-lg text-base text-center text-blue-700 border border-blue-700 bg-blue-100 rounded-md p-1 z-10"
             >
               view my resume
