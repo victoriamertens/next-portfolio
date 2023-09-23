@@ -28,7 +28,9 @@ export default function Home() {
               <p className=" md:text-xl text-base text-shadow-white pr-1">
                 Building applications that are
               </p>
-              <Description />
+              <div className="w-8">
+                <Description />
+              </div>
             </div>
           </div>
         </div>
