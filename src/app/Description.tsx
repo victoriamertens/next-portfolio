@@ -1,9 +1,10 @@
 'use client';
 import { useState } from 'react';
 import useInterval from './useInterval.jsx';
+import './Description.css';
 export default function Description() {
   let [count, setCount] = useState(0);
-  useInterval(changeDescription, 5000);
+  useInterval(changeDescription, 3000);
 
   let options = [
     'Responsive',
@@ -21,7 +22,11 @@ export default function Description() {
   }
 
   return (
-    <p className="inline text-lg md:text-xl px-1 font-bold uppercase ease-in-out duration-300">
+    <p
+      id="description"
+      key={count}
+      className="inline text-lg md:text-xl px-1 font-bold uppercase ease-in-out duration-300 "
+    >
       {options[count]}
     </p>
   );
