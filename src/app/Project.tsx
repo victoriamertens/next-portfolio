@@ -17,7 +17,6 @@ type propsProject = {
 };
 
 export default function Project(props: propsProject) {
-  console.log(props);
   return (
     <div className="m-10">
       <div className=" border border-solid rounded-md w-72 h-72">
